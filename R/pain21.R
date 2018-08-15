@@ -11,8 +11,8 @@
 #' pain21()
 pain21 = function(){
   pain21dir = file.path(find.package('pain21'), 'pain21')
-  mask = list.files(pain21dir, 'mask.nii.gz')
-  out = read.table(pain21dir, 'samplesize.csv', header=FALSE, col.names=c('study', 'n'), strip.white=TRUE)
+  mask = list.files(pain21dir, 'mask.nii.gz', full.names=TRUE)
+  out = read.table(file.path(pain21dir, 'samplesize.csv'), header=FALSE, col.names=c('study', 'n'), strip.white=TRUE, sep=',')
   out$images=list.files(pain21dir, 'contrast_pain_[0-9]*.nii.gz', full.names=TRUE)
   out$varimages=list.files(pain21dir, 'var_pain_[0-9]*.nii.gz', full.names=TRUE)
   return(list(data=out, mask=mask))
