@@ -7,6 +7,7 @@
 #'
 #' @keywords 21 pain studies
 #' @export
+#' @importFrom utils read.table
 #' @examples
 #' pain21()
 pain21 = function(){
