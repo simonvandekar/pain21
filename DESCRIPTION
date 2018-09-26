@@ -9,7 +9,7 @@ Description: Cleaned data from 21 pain studies used by Maumet et al. (2016) and 
 License: CC0
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.4)
+Depends: R (>= 3.2)
 Collate:
  'pain21.R'
 RoxygenNote: 6.1.0.9000
