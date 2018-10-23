@@ -1,3 +1,6 @@
+[![Travis build
+status](https://travis-ci.com/simonvandekar/pain21.svg?branch=master)](https://travis-ci.com/simonvandekar/pain21)
+
 Cleaned data from 21 pain studies used by Maumet et al. (2016) and downloaded from Neurovault.org at http://neurovault.org/collections/1425/.
 
 Gorgolewski KJ, Varoquaux G, Rivera G, Schwartz Y, Ghosh SS, Maumet C, Sochat VV, Nichols TE, Poldrack RA, Poline J-B, Yarkoni T and Margulies DS (2015) NeuroVault.org: a web-based repository for collecting and sharing unthresholded statistical maps of the brain. Front. Neuroinform. 9:8. doi: 10.3389/fninf.2015.00008
