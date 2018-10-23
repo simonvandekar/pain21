@@ -1,5 +1,4 @@
-[![Travis build
-status](https://travis-ci.com/simonvandekar/pain21.svg?branch=master)](https://travis-ci.com/simonvandekar/pain21)
+[![Build Status](https://travis-ci.com/simonvandekar/pain21.svg?branch=master)](https://travis-ci.com/simonvandekar/pain21)
 
 Cleaned data from 21 pain studies used by Maumet et al. (2016) and downloaded from Neurovault.org at http://neurovault.org/collections/1425/.
 
