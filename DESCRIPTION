@@ -19,4 +19,4 @@ LazyData: true
 Depends: R (>= 3.2)
 Collate:
  'pain21.R'
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
