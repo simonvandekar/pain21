@@ -1,4 +1,9 @@
+<!-- badges: start -->
 [![Build Status](https://travis-ci.com/simonvandekar/pain21.svg?branch=master)](https://travis-ci.com/simonvandekar/pain21)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/muschellij2/pain21?branch=master&svg=true)](https://ci.appveyor.com/project/muschellij2/pain21)
+[![R build status](https://github.com/simonvandekar/pain21/workflows/R-CMD-check/badge.svg)](https://github.com/simonvandekar/pain21/actions)
+<!-- badges: end -->
+
 
 Cleaned data from 21 pain studies used by Maumet et al. (2016) and downloaded from Neurovault.org at http://neurovault.org/collections/1425/.
 
