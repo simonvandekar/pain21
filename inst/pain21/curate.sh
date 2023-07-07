@@ -42,6 +42,11 @@ fslmaths pain21/mask.nii.gz -thr 10.5 -bin pain21/mask.nii.gz
 
 for i in $(ls pain_*/DesignMatrix.csv); do
   out=$(dirname $i | sed "s+.nidm++g");
+  if [ -f "${out}.nidm/Contrast_T001.nii.gz" ]; then
+    spm=0
+  else
+    spm=1
+  fi
   nlines=$(cat $i | wc -l)
-  echo $out,$nlines
+  echo $out,$nlines,$spm
 done > pain21/samplesize.csv
